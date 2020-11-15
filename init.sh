@@ -5,7 +5,7 @@ set -e
 mkdir -p bits/stdc++.h.gch
 cd bits/stdc++.h.gch
 echo '#include <bits/stdc++.h>' > stdc++.h
-rm *.h.gch
+rm -f *.h.gch
 
 function compile {
   echo "compiling with: $@"
