@@ -13,6 +13,6 @@ function compile {
   g++ $@ stdc++.h -o $name.h.gch
 }
 
-compile --std=c++17 -O2
-compile --std=c++17 -g -fsanitize=address,undefined
-compile --std=c++17 -pg
+compile --std=c++23 -O2
+compile --std=c++23 -g -fsanitize=address,undefined
+compile --std=c++23 -pg
